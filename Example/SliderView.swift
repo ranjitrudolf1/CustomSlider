@@ -28,6 +28,7 @@ class CustomSlider: UISlider {
         thumb.layer.borderWidth = self.borderWidth
         thumb.layer.borderColor = self.thumbBorderColor.cgColor
         return thumb
+        
     }()
     
     func configureSlider(
