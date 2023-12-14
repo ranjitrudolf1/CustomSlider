@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSlider'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomSlider.'
+  s.version          = '1.0.0'
+  s.summary          = 'This Library provide you to customize the slider according to you need'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This Library provide you to customize the slider according to you need you can change the slider height and tint color
+    @IBOutlet weak var customSlider: CustomSlider!
+    
+    self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
                        DESC
 
-  s.homepage         = 'https://github.com/Ranjit Kumar/CustomSlider'
+  s.homepage         = 'https://github.com/ranjitrudolf1/CustomSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ranjit Kumar' => 'ranjit.techexactly@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ranjit Kumar/CustomSlider.git', :tag => s.version.to_s }
+  s.author           = { 'Ranjit Kumar' => 'ranjitrudolf@gmail.com' }
+  s.source           = { :git => 'https://github.com/ranjitrudolf1/CustomSlider.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'CustomSlider/Classes/**/*'
   
