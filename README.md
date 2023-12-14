@@ -27,3 +27,4 @@ Ranjit Kumar, ranjit.techexactly@gmail.com
 ## License
 
 CustomSlider is available under the MIT license. See the LICENSE file for more info.
+
