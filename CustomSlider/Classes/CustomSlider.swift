@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class SliderView: UISlider {
+class CustomSlider: UISlider {
     
      var trackHeight: CGFloat = 3
     

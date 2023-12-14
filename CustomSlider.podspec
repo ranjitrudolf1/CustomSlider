@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSlider'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'This Library provide you to customize the slider according to you need'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ranjit Kumar' => 'ranjitrudolf@gmail.com' }
   s.source           = { :git => 'https://github.com/ranjitrudolf1/CustomSlider.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 

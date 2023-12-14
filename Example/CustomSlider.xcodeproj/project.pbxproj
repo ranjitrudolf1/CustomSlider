@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0248DC742B2AE88D0083858B /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248DC732B2AE88D0083858B /* SliderView.swift */; };
 		0248DC762B2AED5F0083858B /* Simulator Screenshot - iPhone 14 Pro Max - 2023-12-14 at 13.29.17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0248DC752B2AED5F0083858B /* Simulator Screenshot - iPhone 14 Pro Max - 2023-12-14 at 13.29.17.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -30,10 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0248DC732B2AE88D0083858B /* SliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		0248DC752B2AED5F0083858B /* Simulator Screenshot - iPhone 14 Pro Max - 2023-12-14 at 13.29.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 14 Pro Max - 2023-12-14 at 13.29.17.png"; sourceTree = "<group>"; };
 		028014EA01BBCB7A7108B2B0 /* Pods-CustomSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomSlider_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomSlider_Example/Pods-CustomSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		06866BB1984E6F1A72DB3033 /* CustomSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomSlider.podspec; path = ../CustomSlider.podspec; sourceTree = "<group>"; };
+		06866BB1984E6F1A72DB3033 /* CustomSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomSlider.podspec; path = ../CustomSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		569BC38BE32C9ED9C6A6D8A7 /* Pods_CustomSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CustomSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				0248DC732B2AE88D0083858B /* SliderView.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CustomSlider */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -338,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0248DC742B2AE88D0083858B /* SliderView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
