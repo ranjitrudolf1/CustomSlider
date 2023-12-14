@@ -96,6 +96,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				0248DC732B2AE88D0083858B /* SliderView.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CustomSlider */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -122,7 +123,6 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				0248DC732B2AE88D0083858B /* SliderView.swift */,
 				0248DC752B2AED5F0083858B /* Simulator Screenshot - iPhone 14 Pro Max - 2023-12-14 at 13.29.17.png */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
