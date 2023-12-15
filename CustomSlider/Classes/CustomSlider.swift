@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-protocol SliderDelegate {
+public protocol SliderDelegate {
     func sliderValueChanged(value: Float)
 }
 
@@ -61,7 +61,7 @@ public class CustomSlider: UIView {
 }
 
 
-class CustomSliderView: UISlider {
+public class CustomSliderView: UISlider {
     
      var trackHeight: CGFloat = 3
     
@@ -103,7 +103,7 @@ class CustomSliderView: UISlider {
             self.tintColor = trackColor
         }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         
     }
@@ -119,7 +119,7 @@ class CustomSliderView: UISlider {
         }
     }
     
-    override func trackRect(forBounds bounds: CGRect) -> CGRect {
+    public override func trackRect(forBounds bounds: CGRect) -> CGRect {
 
         var newRect = super.trackRect(forBounds: bounds)
         newRect.size.height = trackHeight
