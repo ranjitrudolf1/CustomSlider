@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CustomSlider
 
 class ViewController: UIViewController, SliderDelegate {
 

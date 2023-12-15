@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 97a406291b72da13e783fdb532164da44de956f2
+PODS:
+  - CustomSlider (1.0.5)
+
+DEPENDENCIES:
+  - CustomSlider (from `../`)
+
+EXTERNAL SOURCES:
+  CustomSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomSlider: b74d263dab078b22e1b81f116b8434f45befc811
+
+PODFILE CHECKSUM: 1173f7a74b8fcca650c0a988a32fa8a9513c9ebf
 
 COCOAPODS: 1.14.3
