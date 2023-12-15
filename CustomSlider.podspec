@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Ranjit Kumar' => 'ranjitrudolf@gmail.com' }
   s.source           = { :git => 'https://github.com/ranjitrudolf1/CustomSlider.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-  s.source_files = 'Source/**/*'
+  s.source_files = 'Source/**/**/*'
 
   s.swift_version = '5.0'
   
