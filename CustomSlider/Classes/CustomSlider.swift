@@ -12,56 +12,56 @@ public protocol SliderDelegate {
     func sliderValueChanged(value: Float)
 }
 
-public class CustomSlider: UIView {
-    
-    public var slider: CustomSliderView?
-     var delegate: SliderDelegate?
-    
-    override init(frame: CGRect) {
-            super.init(frame: frame)
-            setupView()
-        }
+//public class CustomSlider1: UIView {
+//    
+//    public var slider: CustomSliderView?
+//     var delegate: SliderDelegate?
+//    
+//    override init(frame: CGRect) {
+//            super.init(frame: frame)
+//            setupView()
+//        }
+//
+//        required init?(coder aDecoder: NSCoder) {
+//            super.init(coder: aDecoder)
+//            setupView()
+//        }
+//
+//    public func setupView() {
+//            // Customize your view here
+////            backgroundColor = UIColor.green
+//            // Add a slider
+//            slider = CustomSliderView(frame: CGRect(x: 0, y: 0, width: frame.width, height: frame.height))
+//                   slider?.minimumValue = 0
+//                   slider?.maximumValue = 1
+//                   slider?.value = 0.5
+//                   slider?.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
+//                   addSubview(slider!)
+//
+//            // Add any subviews or configure additional properties as needed
+//        }
+//    
+//    @objc public func sliderValueChanged(_ sender: UISlider) {
+//            // Handle slider value changes here
+////            print("Slider value: \(sender.value)")
+//        delegate?.sliderValueChanged(value: sender.value)
+//        }
+//    
+//    public func configureSlider(
+//        trackHeight: CGFloat,
+//        thumbRadius: CGFloat,
+//        borderWidth: CGFloat,
+//        thumbColor: UIColor,
+//        thumbBorderColor: UIColor,
+//        trackColor: UIColor){
+//            self.slider?.configureSlider(trackHeight: trackHeight, thumbRadius: thumbRadius, borderWidth: borderWidth, thumbColor: thumbColor, thumbBorderColor: thumbBorderColor, trackColor: trackColor)
+//        }
+//    
+//
+//}
 
-        required init?(coder aDecoder: NSCoder) {
-            super.init(coder: aDecoder)
-            setupView()
-        }
 
-    public func setupView() {
-            // Customize your view here
-//            backgroundColor = UIColor.green
-            // Add a slider
-            slider = CustomSliderView(frame: CGRect(x: 0, y: 0, width: frame.width, height: frame.height))
-                   slider?.minimumValue = 0
-                   slider?.maximumValue = 1
-                   slider?.value = 0.5
-                   slider?.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
-                   addSubview(slider!)
-
-            // Add any subviews or configure additional properties as needed
-        }
-    
-    @objc public func sliderValueChanged(_ sender: UISlider) {
-            // Handle slider value changes here
-//            print("Slider value: \(sender.value)")
-        delegate?.sliderValueChanged(value: sender.value)
-        }
-    
-    public  func configureSlider(
-        trackHeight: CGFloat,
-        thumbRadius: CGFloat,
-        borderWidth: CGFloat,
-        thumbColor: UIColor,
-        thumbBorderColor: UIColor,
-        trackColor: UIColor){
-            self.slider?.configureSlider(trackHeight: trackHeight, thumbRadius: thumbRadius, borderWidth: borderWidth, thumbColor: thumbColor, thumbBorderColor: thumbBorderColor, trackColor: trackColor)
-        }
-    
-
-}
-
-
-public class CustomSliderView: UISlider {
+public class CustomSlider: UISlider {
     
      var trackHeight: CGFloat = 3
     

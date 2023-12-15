@@ -19,24 +19,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikb-ne-9rN" customClass="CustomSlider" customModule="CustomSlider_Example" customModuleProvider="target">
-                                <rect key="frame" x="10" y="308.5" width="355" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="dCE-7j-kKh"/>
-                                </constraints>
-                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YSQ-TD-Iki" customClass="CustomSlider" customModule="CustomSlider">
+                                <rect key="frame" x="8" y="318.5" width="359" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="ikb-ne-9rN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="epT-Mf-wyW"/>
-                            <constraint firstAttribute="trailing" secondItem="ikb-ne-9rN" secondAttribute="trailing" constant="10" id="smP-99-OS4"/>
-                            <constraint firstItem="ikb-ne-9rN" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="uQJ-aO-CV8"/>
-                            <constraint firstItem="ikb-ne-9rN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="uTB-Oo-iyX"/>
+                            <constraint firstItem="YSQ-TD-Iki" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="Aog-iC-qho"/>
+                            <constraint firstItem="YSQ-TD-Iki" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Vva-Mg-Vzo"/>
+                            <constraint firstAttribute="trailing" secondItem="YSQ-TD-Iki" secondAttribute="trailing" constant="10" id="reJ-VT-o0k"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="customSlider" destination="ikb-ne-9rN" id="qYK-1U-TMu"/>
+                        <outlet property="customSlider" destination="YSQ-TD-Iki" id="5AT-KV-2Pe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

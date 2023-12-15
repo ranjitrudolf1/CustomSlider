@@ -10,10 +10,10 @@
 		20A2D87E2C83799C18D6A81B76EF2E91 /* Pods-CustomSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF99120CF97CA9EFCB5AE4377D1C9E /* Pods-CustomSlider_Example-dummy.m */; };
 		614619755C8552B6B0A53D8E60481A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7AFBA7482EC074C7BC40BC63B54A8C02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B4FA2945B64D8DB5FF98CB0B23456526 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B80F7037FA5E07C9D08075C0BEB97B /* CustomSlider.swift */; };
+		B92325463499E0F8D0CC01469615F390 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930874A96B22DC085A9E4929794CD7D0 /* CustomSlider.swift */; };
 		CB82C4D3FB98769BDA6EC7A2A705E85F /* Pods-CustomSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F91AE3EA3536F95506E2412BCE7A42B2 /* Pods-CustomSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9B1CF00C3A1CAA30D62EE1A0894E72D /* CustomSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447621A8851806DB5EE93A718C309A8 /* CustomSlider-dummy.m */; };
-		FF3C78F1EF364572FDCBB9124BDBF99F /* CustomSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B84054D0A6B60ECB47531253AF27A9C /* CustomSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B1CF00C3A1CAA30D62EE1A0894E72D /* CustomSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2BC39BABACDA93ED31650CCCA7CD5 /* CustomSlider-dummy.m */; };
+		FF3C78F1EF364572FDCBB9124BDBF99F /* CustomSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6074CD709384895F6E53AEAC66EF65DB /* CustomSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,27 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0447621A8851806DB5EE93A718C309A8 /* CustomSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomSlider-dummy.m"; sourceTree = "<group>"; };
-		0A13063740F9749570EC142532EBFAF4 /* CustomSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0B84054D0A6B60ECB47531253AF27A9C /* CustomSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSlider-umbrella.h"; sourceTree = "<group>"; };
-		1789BF727B1BA1E83ECE79AFBCFD880B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		166948471C6EF850A65EACF313E40410 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1AAF99120CF97CA9EFCB5AE4377D1C9E /* Pods-CustomSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomSlider_Example-dummy.m"; sourceTree = "<group>"; };
-		29D24774DE75F3C19F08649839D515F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		251B2F80F37979D8178EAAF8B9C0D29B /* CustomSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2A11CEB1DE5ECA706AFF8794E65F3901 /* Pods-CustomSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomSlider_Example.modulemap"; sourceTree = "<group>"; };
 		2AE3A991183754BC3008AA035B8B910B /* Pods-CustomSlider_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CustomSlider_Example"; path = Pods_CustomSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3515C9A71D0EA95EB7EBAA5A16A3BFE2 /* CustomSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSlider.debug.xcconfig; sourceTree = "<group>"; };
-		5494C396A74806E4DDE61C3BD7227ABB /* CustomSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomSlider.modulemap; sourceTree = "<group>"; };
+		37892A0593EA16CCE544499569E5CE0A /* CustomSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSlider-prefix.pch"; sourceTree = "<group>"; };
 		570737BB5DB5BE5392DE5EE6F25C3CFF /* Pods-CustomSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6074CD709384895F6E53AEAC66EF65DB /* CustomSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSlider-umbrella.h"; sourceTree = "<group>"; };
+		693F864565262E2944C727D929968C26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6C4FBCE018DC7CBF8A9FE3C0B0E56608 /* Pods-CustomSlider_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSlider_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7EC2BC39BABACDA93ED31650CCCA7CD5 /* CustomSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomSlider-dummy.m"; sourceTree = "<group>"; };
+		7EF9DC44317601ADE1DE4981CF32F1E4 /* CustomSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSlider.release.xcconfig; sourceTree = "<group>"; };
 		9009A54DAB423A236309B587B8506EDF /* CustomSlider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomSlider; path = CustomSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		930874A96B22DC085A9E4929794CD7D0 /* CustomSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomSlider.swift; path = CustomSlider/Classes/CustomSlider.swift; sourceTree = "<group>"; };
 		9A9F58657018AEECCE9AAECEA3E9F3E5 /* Pods-CustomSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BBF1112E840EC4A23C184178AC729C5 /* CustomSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSlider.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8B80F7037FA5E07C9D08075C0BEB97B /* CustomSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomSlider.swift; path = Source/Classes/CustomSlider.swift; sourceTree = "<group>"; };
-		B58015B4CDF5BD1159E66A7151BB69CC /* CustomSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomSlider-Info.plist"; sourceTree = "<group>"; };
 		BC585E1E29E3F0BFA2AFB3C332696AD2 /* Pods-CustomSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BDB89A08D14FA0400E734DA1E7CB57E8 /* CustomSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomSlider-prefix.pch"; sourceTree = "<group>"; };
-		E54A793EA9B4D3A8D912E90BBA1A3AFF /* CustomSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomSlider.release.xcconfig; sourceTree = "<group>"; };
+		D1A583A5FFA8FE024037F42CE74FD34D /* CustomSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomSlider-Info.plist"; sourceTree = "<group>"; };
+		EAD5C1ABCBD3C93591313020E1639CC5 /* CustomSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CustomSlider.modulemap; sourceTree = "<group>"; };
 		F91AE3EA3536F95506E2412BCE7A42B2 /* Pods-CustomSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomSlider_Example-umbrella.h"; sourceTree = "<group>"; };
 		FC60AC57B7C0C7A86ABD4903AD659EE7 /* Pods-CustomSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCD3D399A91495547F859A4CD078720E /* Pods-CustomSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,12 +73,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		209552BD8587B0EECBD9AE7677D89DBF /* CustomSlider */ = {
+			isa = PBXGroup;
+			children = (
+				930874A96B22DC085A9E4929794CD7D0 /* CustomSlider.swift */,
+				C0C7F74482B4EE8F4CCA94523EF5674B /* Pod */,
+				7398CE110F4EE4A94C4336DB33FF74C7 /* Support Files */,
+			);
+			name = CustomSlider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7398CE110F4EE4A94C4336DB33FF74C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5C1ABCBD3C93591313020E1639CC5 /* CustomSlider.modulemap */,
+				7EC2BC39BABACDA93ED31650CCCA7CD5 /* CustomSlider-dummy.m */,
+				D1A583A5FFA8FE024037F42CE74FD34D /* CustomSlider-Info.plist */,
+				37892A0593EA16CCE544499569E5CE0A /* CustomSlider-prefix.pch */,
+				6074CD709384895F6E53AEAC66EF65DB /* CustomSlider-umbrella.h */,
+				9BBF1112E840EC4A23C184178AC729C5 /* CustomSlider.debug.xcconfig */,
+				7EF9DC44317601ADE1DE4981CF32F1E4 /* CustomSlider.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CustomSlider";
 			sourceTree = "<group>";
 		};
 		8966E974DEBD14DF365C48A290326E89 /* Targets Support Files */ = {
@@ -92,7 +118,7 @@
 		8A58360D3BAAC43E83C730309A49EE8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC8CAF55B122DC0E4BA5F1A08CE4B3C8 /* CustomSlider */,
+				209552BD8587B0EECBD9AE7677D89DBF /* CustomSlider */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -104,16 +130,6 @@
 				2AE3A991183754BC3008AA035B8B910B /* Pods-CustomSlider_Example */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A2AC05AFDA4D81C9118A05E491638FF8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0A13063740F9749570EC142532EBFAF4 /* CustomSlider.podspec */,
-				1789BF727B1BA1E83ECE79AFBCFD880B /* LICENSE */,
-				29D24774DE75F3C19F08649839D515F3 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		AA9A49905BD35D7FF84C8A885599C980 /* Pods-CustomSlider_Example */ = {
@@ -133,15 +149,14 @@
 			path = "Target Support Files/Pods-CustomSlider_Example";
 			sourceTree = "<group>";
 		};
-		CC8CAF55B122DC0E4BA5F1A08CE4B3C8 /* CustomSlider */ = {
+		C0C7F74482B4EE8F4CCA94523EF5674B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A8B80F7037FA5E07C9D08075C0BEB97B /* CustomSlider.swift */,
-				A2AC05AFDA4D81C9118A05E491638FF8 /* Pod */,
-				EDF4A774A94E7DD0CF262C7B24D0782A /* Support Files */,
+				251B2F80F37979D8178EAAF8B9C0D29B /* CustomSlider.podspec */,
+				693F864565262E2944C727D929968C26 /* LICENSE */,
+				166948471C6EF850A65EACF313E40410 /* README.md */,
 			);
-			name = CustomSlider;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -161,21 +176,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EDF4A774A94E7DD0CF262C7B24D0782A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5494C396A74806E4DDE61C3BD7227ABB /* CustomSlider.modulemap */,
-				0447621A8851806DB5EE93A718C309A8 /* CustomSlider-dummy.m */,
-				B58015B4CDF5BD1159E66A7151BB69CC /* CustomSlider-Info.plist */,
-				BDB89A08D14FA0400E734DA1E7CB57E8 /* CustomSlider-prefix.pch */,
-				0B84054D0A6B60ECB47531253AF27A9C /* CustomSlider-umbrella.h */,
-				3515C9A71D0EA95EB7EBAA5A16A3BFE2 /* CustomSlider.debug.xcconfig */,
-				E54A793EA9B4D3A8D912E90BBA1A3AFF /* CustomSlider.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CustomSlider";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FA2945B64D8DB5FF98CB0B23456526 /* CustomSlider.swift in Sources */,
+				B92325463499E0F8D0CC01469615F390 /* CustomSlider.swift in Sources */,
 				E9B1CF00C3A1CAA30D62EE1A0894E72D /* CustomSlider-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +314,7 @@
 /* Begin XCBuildConfiguration section */
 		10FABA62E6C91FB8499139A5A357AA8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3515C9A71D0EA95EB7EBAA5A16A3BFE2 /* CustomSlider.debug.xcconfig */;
+			baseConfigurationReference = 9BBF1112E840EC4A23C184178AC729C5 /* CustomSlider.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -381,7 +381,7 @@
 		};
 		7E7298776B8E526722009CDB759B0569 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E54A793EA9B4D3A8D912E90BBA1A3AFF /* CustomSlider.release.xcconfig */;
+			baseConfigurationReference = 7EF9DC44317601ADE1DE4981CF32F1E4 /* CustomSlider.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
