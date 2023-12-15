@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
   s.summary          = 'This Library provide you to customize the slider according to you need'
 
   s.description      = <<-DESC
-  This Library provide you to customize the slider according to you need you can change the slider height and tint color
-  @IBOutlet weak var customSlider: CustomSlider!
+            This Library provide you to customize the slider according to you need you can change the slider height and tint color
+            @IBOutlet weak var customSlider: CustomSlider!
   
-  self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
+            self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
   DESC
   
   s.homepage         = 'https://github.com/ranjitrudolf1/CustomSlider'
@@ -29,13 +29,6 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'CustomSlider/Classes/**/*.swift'
   s.source_files = 'Source/**/*'
-  
-  # s.resource_bundles = {
-  #   'CustomSlider' => ['CustomSlider/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
   s.swift_version = '5.0'
 end
