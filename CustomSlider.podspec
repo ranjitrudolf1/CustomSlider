@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSlider'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'This Library provide you to customize the slider according to you need'
 
   s.description      = <<-DESC
