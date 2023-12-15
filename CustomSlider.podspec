@@ -8,22 +8,16 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSlider'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'This Library provide you to customize the slider according to you need'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
   This Library provide you to customize the slider according to you need you can change the slider height and tint color
-    @IBOutlet weak var customSlider: CustomSlider!
-    
-    self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
-                       DESC
-
+  @IBOutlet weak var customSlider: CustomSlider!
+  
+  self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
+  DESC
+  
   s.homepage         = 'https://github.com/ranjitrudolf1/CustomSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -31,8 +25,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ranjitrudolf1/CustomSlider.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
+  s.platform     = :ios, '11.0'
 
-  s.source_files = 'CustomSlider/Classes/**/*'
+#  s.source_files = 'CustomSlider/Classes/**/*.swift'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'CustomSlider' => ['CustomSlider/Assets/*.png']
@@ -41,4 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
 end

@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikb-ne-9rN" customClass="CustomSlider" customModule="CustomSlider_Example">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ikb-ne-9rN" customClass="CustomSlider" customModule="CustomSlider_Example" customModuleProvider="target">
                                 <rect key="frame" x="10" y="308.5" width="355" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -36,7 +36,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="customSlider" destination="ikb-ne-9rN" id="dlU-k0-6qC"/>
+                        <outlet property="customSlider" destination="ikb-ne-9rN" id="qYK-1U-TMu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

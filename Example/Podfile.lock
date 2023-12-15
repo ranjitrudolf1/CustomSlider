@@ -1,5 +1,5 @@
 PODS:
-  - CustomSlider (1.0.6)
+  - CustomSlider (1.0.8)
 
 DEPENDENCIES:
   - CustomSlider (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomSlider: 08da4243b5a84effbffbc4ec201f04df39abb44f
+  CustomSlider: d6ca05a40e5770cd00d99ad627d65d601cede2fb
 
-PODFILE CHECKSUM: 1173f7a74b8fcca650c0a988a32fa8a9513c9ebf
+PODFILE CHECKSUM: 48242a840b24ab2aeb1e5e659963c98c55af8a4c
 
 COCOAPODS: 1.14.3

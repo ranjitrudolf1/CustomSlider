@@ -18,8 +18,9 @@ class ViewController: UIViewController, SliderDelegate {
         super.viewDidLoad()
 //        self.customSlider = CustomSlider(frame: customSlider.frame)
         self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
-        self.customSlider.delegate = self
+//        self.customSlider.delegate = self
 //        self.customSlider.backgroundColor = .red
+        
         
     }
 
