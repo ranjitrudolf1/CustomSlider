@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomSlider'
-  s.version          = '1.0.9'
+  s.version          = '1.1.0'
   s.summary          = 'This Library provide you to customize the slider according to you need'
 
   s.description      = <<-DESC
@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.platform     = :ios, '11.0'
 
-#  s.source_files = 'CustomSlider/Classes/**/*.swift'
-  s.source_files = 'Source/**/*'
+  s.source_files = 'CustomSlider/Classes/**/*.swift'
+#  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'CustomSlider' => ['CustomSlider/Assets/*.png']
