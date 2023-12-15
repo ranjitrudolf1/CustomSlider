@@ -19,7 +19,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CustomSlider'
 ```
-
+    @IBOutlet weak var customSlider: CustomSlider!
+    
+        self.customSlider.configureSlider(trackHeight: 10, thumbRadius: 30, borderWidth: 5, thumbColor: .green, thumbBorderColor: .black, trackColor: .red)
+        self.customSlider.delegate = self
 ## Author
 
 Ranjit Kumar, ranjit.techexactly@gmail.com

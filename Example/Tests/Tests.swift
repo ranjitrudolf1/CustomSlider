@@ -1,5 +1,4 @@
 import XCTest
-import CustomSlider
 
 class Tests: XCTestCase {
     

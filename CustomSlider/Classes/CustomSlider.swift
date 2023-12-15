@@ -8,7 +8,60 @@
 import Foundation
 import UIKit
 
-class CustomSlider: UISlider {
+protocol SliderDelegate {
+    func sliderValueChanged(value: Float)
+}
+
+public class CustomSlider: UIView {
+    
+    private var slider: CustomSliderView?
+     var delegate: SliderDelegate?
+    
+    override init(frame: CGRect) {
+            super.init(frame: frame)
+            setupView()
+        }
+
+        required init?(coder aDecoder: NSCoder) {
+            super.init(coder: aDecoder)
+            setupView()
+        }
+
+        private func setupView() {
+            // Customize your view here
+//            backgroundColor = UIColor.green
+            // Add a slider
+            slider = CustomSliderView(frame: CGRect(x: 0, y: 0, width: frame.width, height: frame.height))
+                   slider?.minimumValue = 0
+                   slider?.maximumValue = 1
+                   slider?.value = 0.5
+                   slider?.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
+                   addSubview(slider!)
+
+            // Add any subviews or configure additional properties as needed
+        }
+    
+    @objc private func sliderValueChanged(_ sender: UISlider) {
+            // Handle slider value changes here
+//            print("Slider value: \(sender.value)")
+        delegate?.sliderValueChanged(value: sender.value)
+        }
+    
+    func configureSlider(
+        trackHeight: CGFloat,
+        thumbRadius: CGFloat,
+        borderWidth: CGFloat,
+        thumbColor: UIColor,
+        thumbBorderColor: UIColor,
+        trackColor: UIColor){
+            self.slider?.configureSlider(trackHeight: trackHeight, thumbRadius: thumbRadius, borderWidth: borderWidth, thumbColor: thumbColor, thumbBorderColor: thumbBorderColor, trackColor: trackColor)
+        }
+    
+
+}
+
+
+class CustomSliderView: UISlider {
     
      var trackHeight: CGFloat = 3
     
@@ -22,6 +75,7 @@ class CustomSlider: UISlider {
     
     // Custom thumb view which will be converted to UIImage
     // and set as thumb. You can customize it's colors, border, etc.
+    
     private lazy var thumbView: UIView = {
         let thumb = UIView()
         thumb.backgroundColor = thumbColor
